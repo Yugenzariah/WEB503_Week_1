@@ -9,7 +9,7 @@ h1 {
 }
 
 div {
-    background: darkgray;
+    background: #558599;
     height: 500px; width: 500px;
     border: 2px solid red;
 }
@@ -19,11 +19,16 @@ span {
 }
 
 p{
-    background: lightgrey;
+    background: #92b7c0;
     font-size: 2em;
     height: 200px; width: 75%;
 }
 span {
-    background: yellow;
-    font-size: 16em; width: 100px;
+    background: #c6d8e2;
+    font-size: 2em; width: 100px;
+}
+
+p2 {
+    size: 100px;
+    align-items: center;
 }
