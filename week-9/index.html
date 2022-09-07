@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <style>
+        .item1 { grid-area: box1; }
+        .item2 { grid-area: box2; }
+        .item3 { grid-area: box3; }
+        .item4 { grid-area: box4; }
+        .item5 { grid-area: box5; }
+        
+        .grid-container {
+          display: grid;
+          grid-template-areas:
+            'box1 box1 box1 box1 box1 box1'
+            'box2 box3 box3 box3 box4 box4'
+            'box2 box5 box5 box5 box5 box5';
+          gap: 10px;
+          background-color: #2196F3;
+          padding: 10px;
+        }
+        
+        .grid-container > div {
+          background-color: rgba(0, 255, 238, 0.8);
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+        }
+        </style>
+        
+        <div class="grid-container">
+          <div class="item1">Box 1</div>
+          <div class="item2">Box 2</div>
+          <div class="item3">Box 3</div>  
+          <div class="item4">Box 4</div>
+          <div class="item5">Box 5</div>
+        </div>
+                
+        <script src="" async defer></script>
+    </body>
+</html>
