@@ -2,8 +2,9 @@
     display: flex;
     /* justify-content: space-between; */
     /* flex-direction: column; */
-    flex-wrap: wrap;
-    align-content: space-around;
+    /* flex-wrap: wrap;
+    align-content: space-around; */
+    align-self: stretch;
 }
 
 .box1 {
@@ -63,3 +64,4 @@
     width: 200px;
     height: 200px;
 }
+
